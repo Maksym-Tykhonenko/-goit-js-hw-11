@@ -19,26 +19,21 @@ p {
   border: none;
   padding: 5px 8px;
   margin-right: 10px;
+  
+}
+.search-form__wrap {
+  position: relative;
 }
 
-.search-form>button {
-  padding: 5px;
-  margin: 0;
-  border: none;
-  border-radius: 12px;
+.search-form__btn {
+position: absolute;
+right: 45%;
+background-color: transparent;
+border-color: transparent;
 
-  transition: background-color 250ms ease, transform 100ms ease;
 }
 
-.search-form>button:hover {
-  background-color: rgb(31, 154, 202);
-}
-
-.search-form>button:active {
-  transform: translateY(1.5px);
-}
-
-/* ==================================== */
+ /*==================================== */
 
 .load-more {
   margin: 0 auto;
